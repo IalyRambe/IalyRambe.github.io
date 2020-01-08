@@ -1,0 +1,74 @@
+body{
+  display: flex;
+  font-family: arial,sans-serif;
+}
+
+.pagetop
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 2%;
+  left: 85%;
+}
+
+.menu
+{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+
+.Navbar
+{
+display: flex;
+align-content: center;
+width:500px;
+height: 30px;
+border-radius: 30px;
+}
+
+
+.Recherche
+{
+width:150px;
+height: 30px;
+opacity: 70%;
+font-size: 95%;
+}
+
+.Chance
+{
+width:150px;
+height: 30px;
+opacity: 70%;
+font-size: 95%;
+}
+
+.footer
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50%;
+}
+
+.footer1
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-star;
+  align-items: flex-end;
+  bottom: 0px;
+}
+
+.footer2
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
